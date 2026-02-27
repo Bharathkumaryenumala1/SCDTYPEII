@@ -1,0 +1,9 @@
+{
+	"name": "adf-bharath-free-lab",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1a386b62-e1b9-4478-ab6f-ef1fa346f569",
+		"tenantId": "2aa10a1d-41eb-4b82-8eb0-fb548c019129"
+	}
+}
