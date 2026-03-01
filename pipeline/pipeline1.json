@@ -55,6 +55,14 @@
 				]
 			}
 		],
+		"parameters": {
+			"table_name": {
+				"type": "string"
+			},
+			"customerstable": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
