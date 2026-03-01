@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": {
-					"value": "@convertTimeZone(utcnow(),'UTC','Indian Standard Time')",
+					"value": "@utcNow()",
 					"type": "Expression"
 				},
 				"container": "customertable"
