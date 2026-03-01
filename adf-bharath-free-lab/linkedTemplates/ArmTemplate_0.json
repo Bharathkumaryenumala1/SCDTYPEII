@@ -163,7 +163,7 @@
 					"location": {
 						"type": "AzureBlobStorageLocation",
 						"fileName": {
-							"value": "@utcNow()",
+							"value": "@concat('sales_', formatDateTime(utcNow(),'yyyyMMdd'), '.csv')",
 							"type": "Expression"
 						},
 						"container": "customertable"
