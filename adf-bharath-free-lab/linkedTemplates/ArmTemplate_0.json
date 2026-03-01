@@ -232,7 +232,7 @@
 								"type": "DatasetReference",
 								"parameters": {
 									"container_name": {
-										"value": "@pipeline().parameters.container_name",
+										"value": "@pipeline().parameters.customertable",
 										"type": "Expression"
 									}
 								}
@@ -247,7 +247,7 @@
 					"table_name": {
 						"type": "string"
 					},
-					"container_name": {
+					"customertable": {
 						"type": "string"
 					}
 				},
